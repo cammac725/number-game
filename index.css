@@ -7,7 +7,12 @@ html {
 }
 
 body {
+  height: 100vh;
   font-size: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container {
@@ -15,13 +20,15 @@ body {
   margin: 0 auto;
 }
 
-.header {
-  width: 100%;
-  text-align: center;
-}
-
 .title {
   font-size: 4rem;
+  text-align: center;
+  margin: 2% auto;
+}
+
+.sub-title {
+  font-size: 2rem;
+  text-align: center;
 }
 
 .settings-section {
@@ -29,5 +36,78 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+}
+
+.settings {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.label {
+  font-size: 1.3rem;
+}
+
+input {
+  width: 80px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.clock-section {
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+}
+
+.time-btn {
+  width: 20rem;
+  height: 3rem;
+  margin-right: 2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #3ff266;
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+}
+
+.start-btn {
+  width: 8rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #0d9ab9;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  box-shadow: 4px 4px #888;
+}
+
+.start-btn:hover {
+  background-color: #333;
+}
+
+.board-section {
+  width: 40vw;
+  height: 40vh;
+  margin: 0 auto;
+  border: 3px solid #0d9ab9;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board-card {
+  background-color: #3ab77c;
+  width: calc(25% - 10px);
+  height: auto;
+  margin: 5px;
+  border-radius: 5px;
 }

@@ -8,59 +8,86 @@
 </head>
 <body>
   <div class="container">
-    <header class="header">
-      <h1 class="title">Number Memory Game</h1>
-    </header>
+    
+    <h1 class="title">Number Memory Game</h1>
+    <h2 class="sub-title">Game Settings</h2>
     
     <div class="settings-section">
-      <h2 class="sub-title">Game Settings</h2>
       <div class="settings">
-        <label class="label">Width: </label>
-        <input
-          type="text"
-          name="width"  
-          placeholder="40vw"
-        />
-        <label class="label">Height: </label>
-        <input
-          type="text"
-          name="height"  
-          placeholder="30vh"
-        />
-        <label class="label">Columns: </label>
-        <input
-          type="text"
-          name="columns"  
-          placeholder="4"
-        />
-        <label class="label">Rows: </label>
-        <input
-          type="text"
-          name="rows"  
-          placeholder="4"
-        />
-        <label class="label">Time: </label>
-        <input
-          type="text"
-          name="time"  
-          placeholder="30"
-        />
-        <label class="label">Theme: </label>
-        <input
-          type="text"
-          name="theme"  
-          placeholder="Classic"
-        />
+        <div>
+          <label class="label">Width: </label>
+          <input
+            type="text"
+            name="width"  
+            placeholder="40vw"
+          />
+        </div>
+        <div>
+          <label class="label">Height: </label>
+          <input
+            type="text"
+            name="height"  
+            placeholder="40vh"
+          />
+        </div>
+        <div>
+          <label class="label">Columns: </label>
+          <input
+            type="text"
+            name="columns"  
+            placeholder="4"
+          />
+        </div>
+        <div>
+          <label class="label">Rows: </label>
+          <input
+            type="text"
+            name="rows"  
+            placeholder="4"
+          />
+        </div>
+        <div>
+          <label class="label">Time: </label>
+          <input
+            type="text"
+            name="time"  
+            placeholder="30"
+          />
+        </div>
+        <div>
+          <label class="label">Theme: </label>
+          <input
+            type="text"
+            name="theme"  
+            placeholder="Classic"
+          />
+        </div>
       </div>
       <p>Welcome to the memory game. Change the settings as desired. Click start to play</p>
     </div>
 
     <div class="clock-section">
-
+      <button class="time-btn">Time Remaining: <span id="time">00:30</span></button>
+      <button class="start-btn">Start Game</button>
     </div>
 
     <div class="board-section">
-
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
+      <div class="board-card"></div>
     </div>
 
   </div>
